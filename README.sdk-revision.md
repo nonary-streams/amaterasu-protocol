@@ -1,8 +1,9 @@
-# SDK dependency alignment
+# Historical SDK revision note
 
-This source snapshot pins the reviewed hook-capable foundation commit
-`fe3004d5889df3eb0ce6f68c74fbef0f33c76e94`. All protocol source code
-and fixtures remain unchanged from the earlier extracted revision. Input
-consumers should use this exact protocol revision alongside the same foundation
-revision to avoid duplicate ABI/contract crate identities. No hook runtime is
-implemented in this protocol repository, and no live service is activated.
+The v0.3 extraction pinned foundation
+`fe3004d5889df3eb0ce6f68c74fbef0f33c76e94` while leaving protocol source
+unchanged. This is provenance for that earlier source tag, not the current
+build pin. Use the exact SDK revision in `Cargo.toml` and its committed
+`Cargo.lock` for this publication candidate. Every downstream module must pin
+compatible SDK and protocol revisions to avoid duplicate ABI crate identities.
+No live protocol service is activated by this source repository.

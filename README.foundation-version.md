@@ -1,9 +1,7 @@
-# Foundation revision alignment
+# Historical foundation revision note
 
-This input integration source snapshot pins ABI and contracts to foundation
-`28da5667f73e26d812b0e485f50f0a5c77c5e4f0`, which also contains shared
-storage. The earlier v0.1 protocol tag remains intact. Input must use this
-same foundation revision for its SDK/media/storage dependencies so Cargo does
-not instantiate duplicate ABI or contract crates from different Git revisions.
-The `file://` source location is local-only and will require a stable approved
-repository URL plus a regenerated lockfile before distribution.
+The v0.2 input integration source snapshot pinned foundation
+`28da5667f73e26d812b0e485f50f0a5c77c5e4f0`, including shared storage.
+The earlier v0.1 and v0.2 tags remain historical source references. Current
+build dependencies and their exact portable candidate URLs are in
+`Cargo.toml` and `Cargo.lock`; do not use this older note as a dependency pin.
