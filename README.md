@@ -17,5 +17,5 @@ host runtime was published or activated by this preparation.
 
 Amaterasu owns this repository. External developers consume its versioned
 crates from independent extension repositories; source visibility does not
-grant access to change Amaterasu or to register host services. The public
-source license and release tags remain to be decided.
+grant access to change Amaterasu or to register host services. Project-authored
+source is MIT licensed; release tags remain to be decided.
