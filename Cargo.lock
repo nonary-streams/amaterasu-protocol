@@ -17,12 +17,12 @@ dependencies = [
 [[package]]
 name = "amaterasu-abi"
 version = "0.1.0"
-source = "git+https://github.com/nonary-streams/amaterasu-sdk.git?rev=c72028359d9fa5205a6fa5f7267f28dc4d3a116f#c72028359d9fa5205a6fa5f7267f28dc4d3a116f"
+source = "git+https://github.com/nonary-streams/amaterasu-sdk.git?rev=24819cf7bbf0fc538b91177dd95cac7e599a9229#24819cf7bbf0fc538b91177dd95cac7e599a9229"
 
 [[package]]
 name = "amaterasu-contracts"
 version = "0.1.0"
-source = "git+https://github.com/nonary-streams/amaterasu-sdk.git?rev=c72028359d9fa5205a6fa5f7267f28dc4d3a116f#c72028359d9fa5205a6fa5f7267f28dc4d3a116f"
+source = "git+https://github.com/nonary-streams/amaterasu-sdk.git?rev=24819cf7bbf0fc538b91177dd95cac7e599a9229#24819cf7bbf0fc538b91177dd95cac7e599a9229"
 dependencies = [
  "serde",
  "serde_json",

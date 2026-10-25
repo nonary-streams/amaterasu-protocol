@@ -8,8 +8,8 @@ rust-version = "1.89"
 version = "0.1.0"
 
 [workspace.dependencies]
-amaterasu-abi = { git = "https://github.com/nonary-streams/amaterasu-sdk.git", rev = "c72028359d9fa5205a6fa5f7267f28dc4d3a116f" }
-amaterasu-contracts = { git = "https://github.com/nonary-streams/amaterasu-sdk.git", rev = "c72028359d9fa5205a6fa5f7267f28dc4d3a116f" }
+amaterasu-abi = { git = "https://github.com/nonary-streams/amaterasu-sdk.git", rev = "24819cf7bbf0fc538b91177dd95cac7e599a9229" }
+amaterasu-contracts = { git = "https://github.com/nonary-streams/amaterasu-sdk.git", rev = "24819cf7bbf0fc538b91177dd95cac7e599a9229" }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 
